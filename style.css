@@ -6,8 +6,9 @@ h1 {
 	color:  #00000;
 	text-align: right;
 	}
+
 .topnav {
-	background-color: #333;
+	background-color:#ffffff;
 	overflow: hidden;
 	position: fixed;
 	top:0;
@@ -17,11 +18,13 @@ h1 {
 
   .topnav a {
 	float: right;
-	color: #f2f2f2;
+	color:#000000;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 25px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 20px;
+	overflow:hidden;
+	
   }
   
   .topnav a:hover {
@@ -30,6 +33,6 @@ h1 {
   }
   
   .topnav a.active {
-	background-color: #4CAF50;
-	color: white;
+	background-color: #99ff99;
+	color:#000000;
   }
