@@ -8,11 +8,19 @@ h1 {
 p {
 	font-family: 'Comfortaa', cursive;"
 }
+
+ul {
+	font-family: 'Comfortaa', cursive;
+}
+
 .topnav {
 	background-color:#ffffff;
 	overflow: hidden;
 	position: fixed;
 	top:0;
+	left:0;
+	right:0;
+	z-index: 9999;
 	width:100%;
   }
   
