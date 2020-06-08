@@ -1,12 +1,13 @@
 h1 {
 	margin: 0;
-	padding: 30px 60 px 55px 40px;
-	font-size: 20%;
+	font-size: 50%;
 	font-weight: bold;
 	color:  #00000;
-	text-align: right;
 	}
 
+p {
+	font-family: 'Comfortaa', cursive;"
+}
 .topnav {
 	background-color:#ffffff;
 	overflow: hidden;
