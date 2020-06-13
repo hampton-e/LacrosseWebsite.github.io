@@ -45,11 +45,6 @@ ul {
 	background-color: #99ff99;
 	color:#000000;
   }
-
-  footer{
-	position: fixed;
-	bottom: 0;
-}
  
 @media (max-height:800px){
 	footer { position: static; }
