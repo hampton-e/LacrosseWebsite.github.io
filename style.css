@@ -33,9 +33,7 @@ ul {
 	text-decoration: none;
 	font-size: 20px;
 	overflow:hidden;
-	font-family: 'Comfortaa', cursive;"
-
-	
+	font-family: 'Comfortaa', cursive;"	
   }
   
   .topnav a:hover {
@@ -47,3 +45,92 @@ ul {
 	background-color: #99ff99;
 	color:#000000;
   }
+
+  footer{
+	position: fixed;
+	bottom: 0;
+}
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+ 
+
+.footer-distributed{
+	background-color: #F3F3F3;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 10px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+	width: 50%;
+}
+ 
+.footer-distributed h3{
+	color:  #000000;
+	font: normal 36px 'Comfortaa', cursive;
+	margin: 0;
+	
+}
+ 
+/* logo */
+ 
+.footer-distributed .footer-left img{
+	width: 20%;
+}
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+	color:  #000000;
+	margin: 20px 0 12px;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+/* Footer center */
+ 
+.footer-distributed .footer-center{
+	width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #000000;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #000000;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
